@@ -379,13 +379,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/lge/g5-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/lge/g5-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
-    vendor/lge/g5-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
-    vendor/lge/g5-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
     vendor/lge/g5-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/lge/g5-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar \
-    vendor/lge/g5-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/lge/g5-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
-    vendor/lge/g5-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/lge/g5-common/proprietary/framework/tcmiface.jar:system/framework/tcmiface.jar \
     vendor/lge/g5-common/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
     vendor/lge/g5-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g5-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
@@ -690,8 +687,12 @@ PRODUCT_PACKAGES += \
     com.qualcomm.location \
     dpmserviceapp \
     colorservice \
+    com.qti.dpmframework \
+    com.qti.location.sdk \
+    dpmapi \
     qcnvitems \
-    qcrilhook
+    qcrilhook \
+    tcmclient
 endif
 
 -include vendor/extra/devices.mk
