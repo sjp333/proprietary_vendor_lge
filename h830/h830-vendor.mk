@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/h830/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
     vendor/lge/h830/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
     vendor/lge/h830/proprietary/etc/firmware/fw_bcmdhd_mfg.bin:system/etc/firmware/fw_bcmdhd_mfg.bin \
-    vendor/lge/h830/proprietary/vendor/firmware/BCM4358A3_001.004.015.0072.0120_LGE_Alice_KR.hcd:system/vendor/firmware/BCM4358A3_001.004.015.0072.0120_LGE_Alice_KR.hcd
+    vendor/lge/h830/proprietary/vendor/firmware/BCM4358A3_001.004.015.0075.0126_H1_Alice_ORC.hcd:system/vendor/firmware/BCM4358A3_001.004.015.0075.0126_H1_Alice_ORC.hcd
 
 ifeq ($(QCPATH),)
 PRODUCT_COPY_FILES += \
