@@ -388,6 +388,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/lge/g5-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
     vendor/lge/g5-common/proprietary/lib64/hw/sensors.vr.so:system/lib64/hw/sensors.vr.so \
+    vendor/lge/g5-common/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
     vendor/lge/g5-common/proprietary/lib64/librilqmiservices.so:system/lib64/librilqmiservices.so \
     vendor/lge/g5-common/proprietary/vendor/bin/mm-pp-dpps:system/vendor/bin/mm-pp-dpps \
     vendor/lge/g5-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
@@ -650,6 +651,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/qcril.db:system/vendor/qcril.db
 
 PRODUCT_PACKAGES += \
+    libloc_api_v02 \
     libdsi_netctrl \
     libqmi_cci \
     libqmi_common_so \
