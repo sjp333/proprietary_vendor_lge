@@ -204,6 +204,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_vt.so:system/vendor/lib/libchromatix_t4ka3_vt.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_zsl_preview.so:system/vendor/lib/libchromatix_t4ka3_zsl_preview.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libchromatix_t4ka3_zsl_video.so:system/vendor/lib/libchromatix_t4ka3_zsl_video.so \
+    vendor/lge/g5-common/proprietary/vendor/lib/libflash_pmic.so:system/vendor/lib/libflash_pmic.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libjpegdhw.so:system/vendor/lib/libjpegdhw.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libjpegdmahw.so:system/vendor/lib/libjpegdmahw.so \
     vendor/lge/g5-common/proprietary/vendor/lib/libjpegehw.so:system/vendor/lib/libjpegehw.so \
