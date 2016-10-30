@@ -314,7 +314,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_dbg.so:system/vendor/lib64/libmmcamera_dbg.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_algo.so:system/vendor/lib64/libmmcamera_tintless_algo.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib64/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/lge/g5-common/proprietary/vendor/lib64/libscalar.so:system/vendor/lib64/libscalar.so \
     vendor/lge/g5-common/proprietary/vendor/lib64/libsensor_lge_cal.so:system/vendor/lib64/libsensor_lge_cal.so
 
 ifeq ($(QCPATH),)
