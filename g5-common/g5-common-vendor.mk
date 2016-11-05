@@ -426,6 +426,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/g5-common/proprietary/etc/cne/wqeclient/profile3.xml:system/etc/cne/wqeclient/profile3.xml \
     vendor/lge/g5-common/proprietary/etc/cne/wqeclient/profile4.xml:system/etc/cne/wqeclient/profile4.xml \
     vendor/lge/g5-common/proprietary/etc/cne/wqeclient/profile5.xml:system/etc/cne/wqeclient/profile5.xml \
+    vendor/lge/g5-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
+    vendor/lge/g5-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
+    vendor/lge/g5-common/proprietary/etc/data/qmi_config.xml:system/etc/data/qmi_config.xml \
     vendor/lge/g5-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/lge/g5-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/lge/g5-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
@@ -693,10 +696,7 @@ PRODUCT_PACKAGES += \
     ims \
     imssettings \
     qcnvitems \
-    qcrilhook \
-    dsi_config \
-    netmgr_config \
-    qmi_config
+    qcrilhook
 endif
 
 -include vendor/extra/devices.mk
