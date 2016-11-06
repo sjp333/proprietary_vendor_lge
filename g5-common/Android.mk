@@ -18,6 +18,9 @@ LOCAL_PATH := $(call my-dir)
 
 ifneq ($(filter g5 h830 h850,$(TARGET_DEVICE)),)
 
+
+ifeq ($(TARGET_DEVICE),oneplus3)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := org.ifaa.android.manager
 LOCAL_MODULE_OWNER := oneplus
